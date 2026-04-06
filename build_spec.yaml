@@ -1,0 +1,14 @@
+version: 0.1
+
+component: build
+
+steps:
+  - type: Command
+    name: "Hello Step"
+    command: |
+      echo "Build started"
+      echo "Hello from OCI build pipeline"
+
+artifacts:
+  - name: output
+    location: .
