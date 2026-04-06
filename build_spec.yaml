@@ -8,7 +8,3 @@ steps:
     command: |
       echo "Build started"
       echo "Hello from OCI build pipeline"
-
-artifacts:
-  - name: output
-    location: .
